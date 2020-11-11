@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">DVP</string>
+    <string-array name="tenphim">
+        <item>Người Nhện Xa Nhà</item>
+        <item>Trò Chơi Kì Ảo</item>
+        <item>Your Name</item>
+        <item>DEADPOOL 2</item>
+        <item>Thành Phố Chim Ưng</item>
+        <item>Cuộc Phiêu Lưu Quả Lê</item>
+        <item>Siêu Thú Cuồng Nộ</item>
+        <item>Ngôi Đền Kì Quái 2</item>
+        <item>Bí Kíp Luyện Rồng</item>
+    </string-array>
+    <string-array name="sapchieu">
+        <item>Việt Nam</item>
+        <item>Mỹ</item>
+        <item>Trung Quốc</item>
+        <item>Anh</item>
+        <item>Pháp</item>
+        <item>Thái Lan</item>>
+    </string-array>
+    <string-array name="theloai1">
+        <item>Kinh Dị</item>
+        <item>Hoạt Hình</item>
+        <item>Đánh Nhau</item>
+        <item>Hành Động</item>
+        <item>Vui Vể</item>
+    </string-array>
+    <string-array name="theloai">
+        <item>Viễn Tưởng</item>
+        <item>Hành Động</item>
+        <item>Tâm Lý</item>
+        <item> Hài Hước</item>
+        <item>Hoạt Hình</item>
+        <item>Phiêu Lưu</item>
+        <item>Chiến Tranh</item>
+        <item>Kinh Dị</item>
+        <item>Phiêu Lưu</item>
+    </string-array>
+    <string-array name="chinhanh">
+        <item>RCP Quận 1 </item>
+        <item>RCP Quận 2</item>
+        <item>RCP Quận 3</item>
+        <item>RCP Quận 4</item>
+        <item>RCP Quận 5</item>
+    </string-array>
+    <string-array name="thoigian">
+        <item>9:00</item>
+        <item>12:00</item>
+        <item>3:00</item>
+        <item>17:00</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
