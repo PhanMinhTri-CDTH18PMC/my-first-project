@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".DangkyFragment">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="ĐĂNG KÍ"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableStart="@drawable/mail"
+        android:background="@drawable/edt"
+        android:id="@+id/dangky_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint=" Nhập Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/mail" />
+    <EditText
+        android:background="@drawable/edt"
+        android:drawableStart="@drawable/mk"
+        android:id="@+id/dangky_matkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:hint=" MẬT KHẨU"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/mk" />
+    <EditText
+        android:background="@drawable/edt"
+        android:drawableStart="@drawable/mk"
+        android:id="@+id/dangky_rematkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:hint=" MẬT KHẨU"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/mk" />
+
+
+    <TextView
+        android:id="@+id/tvmessage"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/edt"
+        android:id="@+id/dangky"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Đăng ký" />
+</LinearLayout>
